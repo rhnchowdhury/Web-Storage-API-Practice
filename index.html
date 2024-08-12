@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">Web Storage API</h1>
+    <div>
+      <h3 style="color: tomato">Local Storage data add</h3>
+    </div>
+    <div>
+      <input type="text" id="inputF" value="name" disabled />
+      <input type="text" id="inputL" placeholder="Your Name" />
+      <button onclick="btnF()" type="submit">Submit</button>
+    </div>
+    <div style="margin-top: 1%">
+      <input type="text" id="inputAge" value="age" disabled />
+      <input type="text" id="yourAge" placeholder="Your Age" />
+      <button onclick="btnAge()" type="submit">Submit</button>
+    </div>
+    <div style="margin-top: 1%; margin-left: 8%">
+      <button onclick="allClear()">Clear Local Storage</button>
+    </div>
+    <script src="storage.js"></script>
+  </body>
+</html>
